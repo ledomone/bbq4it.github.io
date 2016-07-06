@@ -2329,3 +2329,6 @@ footer.classic .social-profiles {
 {
 	color:#ccc;
 }
+.footer-container a{
+border:none;
+}
