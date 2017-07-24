@@ -416,7 +416,7 @@ h2 {
 **************************/
 #event {
   background-color: #33888F;
-  background-image: url("../images/performar-bg.jpg");
+ /* background-image: url("../images/performar-bg.jpg");*/
   background-position: 50% 0;
   background-size: contain;
   position: relative;
@@ -451,8 +451,28 @@ h2 {
   margin-top: 25px;
   text-transform: uppercase;
 }
-
-
+#prelegent
+{
+	padding:50px 0;
+	margin-top:100px;
+	color:#777777;
+}
+#prelegent h1
+{
+	font-size: 41px;
+	margin-bottom:45px;
+}
+.topic
+{
+	border-bottom:1px solid #ddd;
+	margin-bottom:20px;
+}
+#prelegent img
+{
+	display: block;
+	margin:0 auto;
+	max-width:98%;
+}
 .single-event h5 {
   font-size: 18px;
   font-weight: 100;
@@ -462,7 +482,14 @@ h2 {
 #event-carousel {
   position: relative;
 }
-
+#event a
+{
+	color: rgba(255,255,255, .5);
+}
+#event a:hover
+{
+	color: #fff;
+}
 .even-control-left, 
 .even-control-right {
   position: absolute;
