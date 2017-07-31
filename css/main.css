@@ -686,7 +686,7 @@ h2 {
 #sponsor .item ul li {
   display: inline-block;
   list-style: none;
-  width: 33.33%;
+  /*width: 33.33%; */
   margin-bottom: 75px;
 }
 
