@@ -853,3 +853,28 @@ h2 {
   color:#e12b00
 }
 
+#subscribe
+{
+	background-color: #33888F;
+	padding: 35px 0 45px;
+}
+#subscribe h2
+{
+	margin-bottom: 25px;
+}
+#subscribe input
+{
+	background-color: transparent;
+	border: 1px solid #ddd;
+	color:#fff;
+	text-transform: uppercase;
+	border-radius:0;
+	padding: 5px;
+	height: auto;
+	line-height: 35px;
+	font-size:16px;
+}
+#subscribe input[type="submit"]
+{
+	padding: 5px 25px;
+}
