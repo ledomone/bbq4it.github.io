@@ -874,7 +874,43 @@ h2 {
 	line-height: 35px;
 	font-size:16px;
 }
+#subscribe .social
+{
+	margin: 35px 0 5px 0;
+}
+#subscribe .social a
+{
+	border-radius:50%;
+	border: 1px solid #ddd;
+	padding: 10px;
+	margin:25px 15px;
+	display: inline-block;
+	opacity: 0.6;
+}
+#subscribe .social a:hover
+{
+	opacity:1;
+}
+#subscribe .social a i
+{
+	font-size: 18px;
+	width:30px;
+	height:30px;
+	display:block;
+	line-height: 30px;
+	color:#fff;
+}
 #subscribe input[type="submit"]
 {
 	padding: 5px 25px;
+}
+#home .carousel-inner .item p
+{
+	color:#f7ab24;
+}
+#home .carousel-inner .item p span
+{
+	font-size:38px;
+	position: relative;
+	top: 10px;
 }
