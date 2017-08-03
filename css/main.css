@@ -194,7 +194,7 @@ h2 {
   float: left;
   left: 0;
   opacity: 0.8;
-  padding:10px 60px 35px;
+  padding:40px 60px;
   right: inherit;
   text-transform: uppercase;
   color: #fff;
@@ -235,7 +235,7 @@ h2 {
 
 #main-slider 
 .carousel-caption a {
-  font-size: 22px;
+  font-size: 32px;
   color: #f7ab24
 }
 
