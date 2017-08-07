@@ -685,7 +685,10 @@ h2 {
   right: 0;
   bottom: 0;
 }
-
+#sponsor .carousel-inner
+{
+	z-index: 999;
+}
 #sponsor .col-sm-10 {
   z-index: 10;
 }
