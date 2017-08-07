@@ -238,7 +238,21 @@ h2 {
   font-size: 32px;
   color: #f7ab24
 }
-
+#galeria
+{
+	padding: 55px 0;
+	background-color: #33888F;
+}
+#galeria .gal img
+{
+	max-width: 100%;
+	margin: 15px 0;
+}
+#galeria h2
+{
+	color:#fff;
+	margin: 15px 0 35px 0;
+}
 #main-slider 
 .carousel-caption a:hover {
   color: #cb8406
