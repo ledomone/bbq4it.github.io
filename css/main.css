@@ -935,10 +935,11 @@ h2 {
 #program
 {
 	color: #777777;
+	padding: 35px 0;
 }
 #program ul 
 {
-	margin:0;
+	margin:0 auto;
 	padding:0;
 	max-width:500px;
 	border: 1px solid #ddd;
@@ -946,6 +947,27 @@ h2 {
 #program ul li
 {
 	list-style: none;
-	padding: 35px 10px;
+	padding: 35px 0px;
 	border-bottom:1px solid #ddd;
+}
+#program ul li img.preleg
+{
+	height: 80px;
+	border-radius:50%;
+}
+#program ul li i
+{
+	font-size: 45px;
+}
+#program ul li.row
+{
+	margin:0;
+}
+#program .box h3
+{
+	text-align:center;
+	background-color:#e12b00;
+	color: #fff;
+	margin:0;
+	padding: 35px 0;
 }
