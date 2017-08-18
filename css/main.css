@@ -931,3 +931,21 @@ h2 {
 	position: relative;
 	top: 10px;
 }
+/*============ program ================*/
+#program
+{
+	color: #777777;
+}
+#program ul 
+{
+	margin:0;
+	padding:0;
+	max-width:500px;
+	border: 1px solid #ddd;
+}
+#program ul li
+{
+	list-style: none;
+	padding: 35px 10px;
+	border-bottom:1px solid #ddd;
+}
