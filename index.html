@@ -25,7 +25,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 
-
+	
 </head><!--/head-->
 
 <body>
@@ -402,7 +402,7 @@
 									19:20
 								</p>
 								<h4>
-									NETWORKING (GRILL, MECZ, ROZDANIE NAGRÓD)
+									NETWORKING (GRILL, <span class="tool" style="color:#e12b00;cursor:pointer" data-placement="top" data-toggle="tooltip" data-placement="top" data-original-title="Tooltip on top" title="Do zabrania sprzęt do gry w piłkę nożną">TURNIEJ PIŁKI NOŻNEJ</span>, ROZDANIE NAGRÓD)
 								</h4>
 							</div>
 						</li>
@@ -419,7 +419,7 @@
 								</h4>
 							</div>
 						</li>
-						
+		
 						
 					</ul>
 				</div>
@@ -467,6 +467,84 @@
                 </div>
             </div>
         </div>
+		<div class="row">
+		
+			<div class="col-md-12 text-center">
+			<h2 class="text-center">Na miejsce konferencji dowiezie Cię nasz rekordowy autobus</h2>
+				<img src="images/bus.png" />
+			</div>
+			
+			<div class="col-md-6">
+				<h3>NA BBQ</h3>
+				<ul>
+					<li>
+					Andersa Osiedle Karpackie Kościół – 14:45; 15:45
+					</li>
+					<li>
+					Piastowska Sobieskiego – 14:55; 15:55
+					</li>
+					<li>
+					Piastowska Dworzec - 15:00, 16:00
+					</li>
+					<li>
+					Hotel Prezydent - 15:02; 16:02
+					</li>
+					<li>
+					Plac Żwirki i Wigury – 15:04; 16:04
+					</li>
+					<li>
+					PCK trasa WZ – 15:07;  16:07
+					</li>
+					<li>
+					Żywiecka Hotel– 15:11; 16:11
+					</li>
+					<li>
+					Bora-Komorowskiego Gemini Park – 15:13; 16:13
+					</li>
+					<li>
+					Bystrzańska Bewelana – 15:17; 16:17
+					</li>
+					<li>
+					Startowa 13 – 15:19; 16:19
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<h3>Z BBQ</h3>
+				<ul>
+					<li>
+					Startowa 13 – 20:55; 21:52
+					</li>
+					<li>
+					Andersa Osiedle Karpackie Kościół – 21:05; 22:02 
+					</li>
+					<li>
+					Piastowska Sobieskiego – 21:15; 22:10 
+					</li>
+					<li>
+					Piastowska Dworzec - 21:20,  22:15
+					</li>
+					<li>
+					Hotel Prezydent - 21:22; 22:17
+					</li>
+					<li>
+					Plac Żwirki i Wigury – 21:24: 22:19
+					</li>
+					<li>
+					PCK trasa WZ – 21:27; 22:21
+					</li>
+					<li>
+					Żywiecka Hotel – 21:31; 22:24
+					</li>
+					<li>
+					Bora-Komorowskiego Gemini Park – 21:33; 22:26
+					</li>
+					<li>
+					Bystrzańska Bewelana – 21:37
+					</li>
+				</ul>
+			</div>
+		</div>
     </div>
 </section>
 
@@ -830,9 +908,24 @@
 <script type="text/javascript" src="js/jquery.nav.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/nivo-lightbox.js"></script>
+
 <script>
     $(document).ready(function () {
         $('.gal').nivoLightbox();
+		$('.tool').tooltip();  
+		
+		$( "#amount" ).tooltip({
+    position: {
+        my: "center bottom",
+        at: "center top-10",
+        collision: "flip",
+        using: function( position, feedback ) {
+            $( this ).addClass( feedback.vertical )
+                .css( position );
+        }
+    }
+});
+
     });
 </script>
 <script>
